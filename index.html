@@ -10,17 +10,19 @@
 </head>
 
 <body>
+    <p class="intro">Search for art by term or title. First enter the term or tile and thn Hit the button. It may take a few sconds to load. Not all items have images</p>
     <form id="term">
         <label for="termvalue">Search by Term</label>
         <input id="termvalue" name="termvalue" type="text" placeholder="Term">
         <input type="button" id="submitTerm" value="submitTerm">
     </form>
+    <section id="terms"></section>
+
     <form id="title">
         <label for="titlevalue">Search by Title</label>
         <input type="text" name="titlevalue" id="titlevalue" placeholder="Title">
         <input type="button" id="submitTitle" value="submitTitle">
     </form>
-    <section id="terms"></section>
     <section id="titles"></section>
 </body>
 <script src="met.js"></script>

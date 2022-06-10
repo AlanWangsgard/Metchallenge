@@ -1,6 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
 img {
-    max-width: 100px;
-    max-height: 150px;
+    width: 100px;
+    height: 150px;
 }
 
 .card {
@@ -8,5 +12,44 @@ img {
     border: 1px solid black;
     width: 45%;
     height: 220px;
-    float: left;
+    /* float: left; */
+    /* position: relative; */
+    background-color: lightgray;
+    /* margin: auto; */
+}
+
+section {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* clear: both; */
+    text-align: justify;
+    /* text-align: center; */
+}
+
+form {
+    text-align: center;
+    background-color: lightgray;
+    width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.intro {
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgray;
+    width: 50%;
+    margin: auto;
 }

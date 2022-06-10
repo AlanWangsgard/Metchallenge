@@ -1,0 +1,12 @@
+img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid black;
+    width: 45%;
+    height: 220px;
+    float: left;
+}
